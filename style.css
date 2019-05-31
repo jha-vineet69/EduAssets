@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+#nav-bar{
+	position: sticky; 
+	top: 0;
+	z-index: 10;
+}
+
+.navbar{
+	background-image: linear-gradient(to right,#a0e4dd, #228f85);
+	padding: 0 !important;
+}
+
+.navbar-brand img{
+	height: 100px;
+	padding-left: 20px;
+}
+.navbar-brand{
+	color: #fff !important;
+	font-weight: 600;
+}
+.navbar-nav li{
+	padding: 0 10px;
+}
+
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+
+.fa-bars{
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler{
+	outline: none !important;
+}
+
+/*-----banner section-----*/
+#banner{
+	background-image: linear-gradient(to right,#a0e4dd, #228f85);
+	color: #fff;
+	padding-top: 5%;
+}
+.promo-title{
+	font-size:3em;
+	font-weight: 600;
+	margin-top: 100px;
+}
+
+/*---------------ABOUT-US---------------*/
+
+#about-us{
+	background: #F4F4F6;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.title{
+	text-align: center;
+}
+.title::before{
+	content: '';
+	background: #228f85;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(63px);
+}
+.title::after{
+	content: '';
+	background: #228f85;
+	height: 10px;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	display: block;
+	transform: translateY(8px);
+}
+
+/*-----------footer---------*/
+#footer{
+	background-image: linear-gradient(to right,#a0e4dd, #228f85);
+}
+
+.footer-box{
+	padding:20px;
+	font-size: 15px;
+}
+
+.footer-box2{
+	padding-top: 120px;
+}
+
+.footer-box img{
+	width: 120px;
+	margin-bottom: 5px;
+}
+
+.footer-box2 .fa{
+	margin-right: 8px;
+	font-size:25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px;
+	background-image: linear-gradient(to right,#a0e4dd, #228f85);
+}
+
+.footer-box2 .form-control{
+	box-shadow: none !important;
+	border: none;
+	border-radius: 0;
+	margin-top: 25px;
+	max-width: 250px;
+}
+
+.footer-box2 .btn-primary{
+	box-shadow: none;
+	border-radius: 0;
+	margin-top: 30px;
+	background-image: linear-gradient(to right,#a0e4dd, #228f85);
+}
+
+hr{
+	background-color: #ffffff;
+}
+
+.copyright{
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	text-align: center;
+}
